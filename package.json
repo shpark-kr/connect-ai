@@ -323,6 +323,8 @@
     "compile": "esbuild src/extension.ts --bundle --platform=node --external:vscode --outfile=out/extension.js",
     "package": "vsce package --no-git-tag-version --allow-missing-repository",
     "typecheck": "tsc --noEmit",
+    "cycle": "node scripts/cycle.js",
+    "console": "node scripts/chat.js",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile"
   },

@@ -30,7 +30,7 @@ const axios = require('axios');
 const BRAIN_DIR = (process.env.BRAIN_DIR || path.join(os.homedir(), '.connect-ai-brain')).replace(/^~/, os.homedir());
 const OLLAMA_URL = process.env.OLLAMA_URL || 'http://127.0.0.1:11434';
 const LMSTUDIO_URL = process.env.LMSTUDIO_URL || 'http://127.0.0.1:1234';
-const MODEL = process.env.MODEL || 'gemma4:e2b';
+let MODEL = process.env.MODEL || '';
 const TIMEOUT_MS = parseInt(process.env.TIMEOUT_MS || '180000', 10);
 
 // ───────────────────────── Helpers ─────────────────────────
@@ -39,32 +39,50 @@ const today = () => new Date().toISOString().slice(0, 10);
 const nowTs = () => new Date().toISOString().replace(/[:.]/g, '-').slice(0, 16);
 
 async function detectEngine() {
-    try { await axios.get(`${OLLAMA_URL}/api/tags`, { timeout: 1500 }); return { kind: 'ollama', url: OLLAMA_URL }; } catch {}
-    try { await axios.get(`${LMSTUDIO_URL}/v1/models`, { timeout: 1500 }); return { kind: 'lmstudio', url: LMSTUDIO_URL }; } catch {}
+    try {
+        const r = await axios.get(`${LMSTUDIO_URL}/v1/models`, { timeout: 1500 });
+        if (!MODEL && r.data?.data?.length) {
+            MODEL = r.data.data[0].id;
+        }
+        return { kind: 'lmstudio', url: LMSTUDIO_URL };
+    } catch {}
+    try {
+        const r = await axios.get(`${OLLAMA_URL}/api/tags`, { timeout: 1500 });
+        if (!MODEL && r.data?.models?.length) {
+            MODEL = r.data.models[0].name;
+        }
+        return { kind: 'ollama', url: OLLAMA_URL };
+    } catch {}
     throw new Error('No local LLM detected. Ensure Ollama or LM Studio is running.');
 }
 
 async function callLLM(engine, system, user) {
+    if (!MODEL) MODEL = 'google/gemma-4-e2b';
     if (engine.kind === 'lmstudio') {
         const r = await axios.post(`${engine.url}/v1/chat/completions`, {
             model: MODEL, stream: false, max_tokens: 2048, temperature: 0.6,
             messages: [ { role: 'system', content: system }, { role: 'user', content: user } ],
         }, { timeout: TIMEOUT_MS });
-        return r.data.choices?.[0]?.message?.content || '';
+        const msg = r.data.choices?.[0]?.message;
+        return (msg?.content || msg?.reasoning_content || '').trim();
     }
     const r = await axios.post(`${engine.url}/api/chat`, {
         model: MODEL, stream: false,
         messages: [ { role: 'system', content: system }, { role: 'user', content: user } ],
         options: { num_ctx: 8192, num_predict: 2048, temperature: 0.6 },
     }, { timeout: TIMEOUT_MS });
-    return r.data.message?.content || '';
+    return (r.data.message?.content || '').trim();
 }
 
 // ───────────────────────── Cycle body ─────────────────────────
 async function runCycle() {
-    if (!fs.existsSync(path.join(BRAIN_DIR, '_shared'))) {
-        console.error(`✗ Brain folder not initialized at ${BRAIN_DIR}. Open the IDE extension once to set up.`);
-        process.exit(1);
+    const sharedDir = path.join(BRAIN_DIR, '_shared');
+    if (!fs.existsSync(sharedDir)) {
+        fs.mkdirSync(sharedDir, { recursive: true });
+        fs.writeFileSync(path.join(sharedDir, 'identity.md'), '# AI 1인 기업 사령부\n\nConnect AI와 함께 자율적으로 성장하는 1인 기업 워크스페이스입니다.\n');
+        fs.writeFileSync(path.join(sharedDir, 'goals.md'), '# 🎯 회사 목표\n\n1. AI 솔루션 및 도구 개발\n2. 유튜브 콘텐츠 및 브랜드 성장\n3. 월 수익 1,000만원 달성\n');
+        fs.writeFileSync(path.join(sharedDir, 'decisions.md'), '# 📜 의사결정 로그\n\n- [2026-09-19] Connect AI 시스템 환경 구축 및 자율 사이클 가동\n');
+        console.log(`✓ Brain structure auto-initialized at: ${BRAIN_DIR}`);
     }
     const engine = await detectEngine();
     console.log(`✓ Engine: ${engine.kind} @ ${engine.url} · model: ${MODEL}`);
@@ -150,10 +168,10 @@ runCycle().catch((e) => {
 # </plist>
 # Then: launchctl load ~/Library/LaunchAgents/com.connectai.cycle.plist
 
-# Linux/macOS cron — every 30 minutes
-# */30 * * * * /usr/local/bin/node /path/to/cycle.js >> ~/.connect-ai-brain/cycle.log 2>&1
+// Linux/macOS cron — every 30 minutes
+// 0,30 * * * * /usr/local/bin/node /path/to/cycle.js >> ~/.connect-ai-brain/cycle.log 2>&1
 
-# Windows Task Scheduler — create a task that runs node.exe with this script as arg
-# every 30 min, with working directory set to the brain folder.
+// Windows Task Scheduler — create a task that runs node.exe with this script as arg
+// every 30 min, with working directory set to the brain folder.
 
 ──────────────────────────────────────────────────────────────────────────── */
