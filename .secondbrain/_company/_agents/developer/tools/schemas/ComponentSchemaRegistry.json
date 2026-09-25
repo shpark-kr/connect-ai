@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.1.0",
+  "components": {
+    "HighlightBox": {
+      "description": "위험 경고 또는 핵심 통계 강조 모듈 (노랑/흰색 고대비)",
+      "requiredProps": ["title", "content", "severity"],
+      "assets": ["svg/highlight_box.svg", "css/highlight_style.css"]
+    },
+    "CTAButton": {
+      "description": "행동 유도 버튼 컴포넌트 (Funnel CTA)",
+      "requiredProps": ["text", "linkType", "targetAsset"],
+      "assets": ["js/cta_logic.js"]
+    },
+    "TimerGraphic": {
+      "description": "위기감 조성 타이머 그래픽 모듈 (3초 카운트다운)",
+      "requiredProps": ["duration", "triggerEvent"],
+      "assets": ["lottie/timer_loop.json"]
+    }
+  },
+  "validationRules": {
+    "allComponents": "must have unique ID and defined assets."
+}
