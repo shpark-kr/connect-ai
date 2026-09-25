@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온현 | 🛡️ 재정적 위험 진단 체크리스트 - 무료 다운로드</title>
+    <!-- Tailwind CSS CDN을 사용하여 빠르게 구조를 잡습니다. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 노랑/흰색 고대비 스타일링 강제 적용 */
+        .warning-bg { background-color: #fff9c4; } /* 연한 노란 배경 */
+        .cta-btn { 
+            background-color: #ffb300; /* 강조 노란색 */
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50 antialiased">
+
+<!-- Hero Section (가장 중요) -->
+<header class="warning-bg py-24 text-center border-b-8 border-yellow-600 shadow-lg">
+    <div class="max-w-4xl mx-auto px-4">
+        <h1 class="text-5xl md:text-7xl font-extrabold text-gray-900 mb-4 leading-tight tracking-tighter">
+            💰 은퇴 후, <span class="text-red-600">혹시 놓치고 계신</span> 재정적 사각지대?
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
+            국민연금, 간병비, 상속세. 복잡한 행정 용어 때문에 재정적 손실을 겪고 계신가요?
+        </p>
+        <div class="text-lg text-yellow-800 bg-yellow-200 p-4 inline-block rounded-xl border border-yellow-500">
+            <span class="font-bold">🚨 무료 다운로드:</span> 3단계 맞춤 진단 체크리스트 (PDF)를 받고, 전문가의 도움을 받으세요.
+        </div>
+    </div>
+</header>
+
+<!-- Features/Problem Section -->
+<section class="py-16 max-w-5xl mx-auto px-4">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center">
+        이런 위험에 노출되어 있지는 않으신가요? (Self-Diagnosis)
+    </h2>
+
+    <!-- Card 1: 연금 Gap -->
+    <div class="flex flex-col md:flex-row items-start mb-8 p-6 bg-white shadow-lg rounded-xl border-l-4 border-red-500 hover:shadow-xl transition duration-300">
+        <input type="checkbox" id="gap1" class="mt-2 mr-3 h-5 w-5 text-red-600 border-gray-300 focus:ring-red-500 cursor-pointer">
+        <div>
+            <h3 class="text-xl font-semibold text-gray-900">✅ 연금 수령액과 실제 지출 간의 'Gap' 확인</h3>
+            <p class="text-gray-600 mt-1">정부 공적연금이 예상치 못한 생활비 부족을 초래할 수 있습니다. (국민연금 사각지대)</p>
+        </div>
+    </div>
+
+     <!-- Card 2: 간병비 -->
+    <div class="flex flex-col md:flex-row items-start mb-8 p-6 bg-white shadow-lg rounded-xl border-l-4 border-yellow-500 hover:shadow-xl transition duration-300">
+        <input type="checkbox" id="gap2" class="mt-2 mr-3 h-5 w-5 text-yellow-600 border-gray-300 focus:ring-yellow-500 cursor-pointer">
+        <div>
+            <h3 class="text-xl font-semibold text-gray-900">✅ 장기요양 및 간병비 부담 (가족의 경제적 리스크)</h3>
+            <p class="text-gray-600 mt-1">간병 과정에서 발생하는 예상치 못한 막대한 지출을 대비하고 계십니까?</p>
+        </div>
+    </div>
+
+     <!-- Card 3: 상속세 -->
+    <div class="flex flex-col md:flex-row items-start mb-8 p-6 bg-white shadow-lg rounded-xl border-l-4 border-blue-500 hover:shadow-xl transition duration-300">
+        <input type="checkbox" id="gap3" class="mt-2 mr-3 h-5 w-5 text-blue-600 border-gray-300 focus:ring-blue-500 cursor-pointer">
+        <div>
+            <h3 class="text-xl font-semibold text-gray-900">✅ 상속 및 증여세 재정 위험 예측</h3>
+            <p class="text-gray-600 mt-1">가족 자산 이전 시 발생하는 세금 리스크를 사전에 진단했는지 확인해야 합니다.</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- CTA (Call to Action) Section - Funnel 핵심 -->
+<section class="bg-yellow-100 py-20 text-center max-w-3xl mx-auto px-4">
+    <h2 class="text-4xl font-bold text-gray-800 mb-6">
+        지금, 가장 먼저 확인해야 할 것은?
+    </h2>
+    <p class="text-lg text-gray-700 mb-10">
+        복잡한 이론 대신, 사장님의 상황에 맞는 **'맞춤 진단 체크리스트 (PDF)'**가 필요합니다.
+    </p>
+
+    <!-- The Funnel Link -->
+    <a href="#download-form" class="cta-btn inline-block text-white font-bold py-4 px-12 rounded-lg text-xl shadow-md uppercase tracking-wider">
+        ✅ 무료 체크리스트 다운로드하고 위험 진단하기 (PDF)
+    </a>
+
+     <p class="mt-8 text-sm text-gray-500">※ 이메일 주소는 오직 재정 컨설팅 자료 발송 목적으로만 사용됩니다.</p>
+</section>
+
+<!-- Download Form Section -->
+<section id="download-form" class="py-20 max-w-md mx-auto px-4 bg-white shadow-2xl rounded-lg border-t-8 border-yellow-600">
+    <h3 class="text-3xl font-bold text-gray-800 mb-6 text-center">
+        [STEP 1] 무료 체크리스트 다운로드 양식
+    </h3>
+
+    <form id="downloadForm" onsubmit="event.preventDefault(); submitForm()">
+        <!-- 이메일 주소를 통해 데이터를 수집하고, 이를 CRM/DB에 저장하는 것이 목표입니다. -->
+        <div class="mb-6">
+            <label for="email" class="block text-lg font-medium text-gray-700 mb-2">이메일 주소</label>
+            <input type="email" id="email" required 
+                   placeholder="example@domain.com (정확한 이메일을 입력해주세요)"
+                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-yellow-500 focus:border-yellow-500 text-xl">
+        </div>
+
+         <!-- 추가적인 데이터 수집 필드 (전화번호, 주거지역 등) -->
+        <div class="mb-8">
+            <label for="phone" class="block text-lg font-medium text-gray-700 mb-2">연락 가능한 전화번호</label>
+            <input type="tel" id="phone" 
+                   placeholder="010-xxxx-xxxx (선택 사항)"
+                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-yellow-500 focus:border-yellow-500 text-xl">
+        </div>
+
+        <button type="submit" class="cta-btn w-full text-white font-bold py-4 px-12 rounded-lg text-xl shadow-md uppercase tracking-wider hover:bg-yellow-700 transition duration-300">
+            📚 체크리스트 받기 (무료) & 다음 단계 확인하기
+        </button>
+
+         <p id="formMessage" class="mt-4 text-center text-sm font-semibold text-red-600"></p>
+    </form>
+</section>
+
+<script>
+function submitForm() {
+    const email = document.getElementById('email').value;
+    const formMessage = document.getElementById('formMessage');
+
+    if (!email || !email.includes('@')) {
+        formMessage.textContent = "🚨 유효한 이메일 주소를 입력해주세요.";
+        return;
+    }
+
+    // 1. (실제 로직) 여기서 백엔드 API를 호출하여 데이터를 DB에 저장해야 함.
+    console.log(`[API Call] Submitting lead data: Email=${email}`);
+    
+    // 시뮬레이션 성공 처리
+    formMessage.textContent = "✅ 감사합니다! 체크리스트가 입력하신 이메일로 즉시 발송됩니다.";
+    document.getElementById('downloadForm').reset();
+
+    setTimeout(() => {
+        // 2초 후 다운로드 링크를 보이게 하거나 다음 페이지로 리다이렉션 함.
+        console.log("Redirecting to success page...");
+    }, 2000);
+}
+</script>
+
+</body>
+</html>

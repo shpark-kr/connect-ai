@@ -214,6 +214,81 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-09-25T11-44/_report.md\n- Researcher: 최근 3개월간 개정되거나 존재하지만, 50~60대 퇴직 세대가 '자동으로' 놓치기 쉬운 공공 지원 제도(복지/연금/세제) 리스트를 최소 5가지 \n- 영숙: 연구자가 수집한 공공 지원 제도 데이터(researcher 산출물)를 바탕으로, 다음 3가지 항목에 대한 최종 브리핑 보고서를 작성하십시오. ①\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 최근 3개월간 개정되거나 존재하지만, 50~60대 퇴직 세대가 '자동으로' 놓치기 쉬운 공공 지원 제도(복지/연금/세제) 리스트를 최소 5가지 이상 발굴하십시오. 각 항목별로 ①지원 대상의 정확한 자격 조건, ",
       "completedAt": "2026-09-25T11:49:09.028Z"
+    },
+    {
+      "id": "20260925141629-y8xr",
+      "title": "**E2E 파이프라인 테스트 완료:** 개발팀의 마스터 테스트 스위트(Master Test Switch)가 작동하여 모든 API 호출 경로에 오류가 없는지 확인.",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-09-25T14:16:29.185Z",
+      "status": "pending",
+      "sessionDir": "2026-09-25T14-14",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260925141629-v347",
+      "title": "**Funnel CTA 연결 검증:** 모든 콘텐츠 (블로그 설명란, 유튜브 설명란, 숏폼 캡션)에서 리드 마그넷 다운로드 페이지로의 링크가 정상적으로 동작하는지 클릭 테스트 완료.",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-09-25T14:16:29.188Z",
+      "status": "pending",
+      "sessionDir": "2026-09-25T14-14",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260925141629-qish",
+      "title": "**다중 포맷 호환성 확인:** 영상 자막(노랑/흰색 대비), 블로그 이미지 비율 등이 모든 기기(모바일, 데스크톱)에서 깨지지 않는지 최종 점검.",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-09-25T14:16:29.191Z",
+      "status": "pending",
+      "sessionDir": "2026-09-25T14-14",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260925141629-9oup",
+      "title": "**최신 공공 데이터 출처 명시:** 콘텐츠 내 모든 통계와 주장은 반드시 '국민연금 공식 자료', '복지부 정책' 등의 출처 URL과 조항을 포함했는지 확인. (가장 중요!)",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-09-25T14:16:29.194Z",
+      "status": "pending",
+      "sessionDir": "2026-09-25T14-14",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260925141629-e77q",
+      "title": "**경고/위기 메시지 일관성:** 전체 시리즈의 톤앤매너(Tone & Manner)를 '재정적 손실 회피 경고'로 통일하고, 헤드라인이 위기감을 극대화하는 구조인지 확인.",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-09-25T14:16:29.199Z",
+      "status": "pending",
+      "sessionDir": "2026-09-25T14-14",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
     }
   ]
 }
