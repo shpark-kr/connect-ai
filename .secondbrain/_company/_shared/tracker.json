@@ -350,6 +350,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-09-26T03-59/_report.md\n- 코다리: Designer가 제공한 'Gap Analyzer' 와이어프레임 및 CSS/SVG 컴포넌트 스펙(특히 상태 변화 로직)을 기반으로, E2E 통합\n\nCEO 종합 요점: 💻 코다리: 작업 시작합니다.\n\nCEO님의 지시는 명확합니다. 가장 중요한 것은 '기능의 안정성'과 '수익화 경로의 완벽한 작동 여부'입니다. 말씀하신 E2E 통합 테스트 계획서는 단순한 기획서가 아니라, **개발 표준이 되는 기술 사양(Technical Specification)**으로 접근해야 합니다. \"만약 이 부분에서 깨지면 어떻게 할까?\"라는 질",
       "completedAt": "2026-09-26T04:01:26.192Z"
+    },
+    {
+      "id": "20260926121750-y6w3",
+      "title": "**모든 핵심 모듈 식별:** `content_master_tester`, `api_resilience_module`, `e2e_funnel_cta_test_suite` 등 모든 서비스 컴포넌트의 정확한 위치와 인터페이스(입력/출력)를 정의했는가?",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-09-26T12:17:50.379Z",
+      "status": "done",
+      "sessionDir": "2026-09-26T12-14",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-26T12-14/_report.md\n- 현빈: 최근 로그에서 언급된 '월 수익 70만원' 단기 목표를 기준으로, 현재 기획 중인 유튜브(롱폼/쇼츠) 및 블로그 콘텐츠를 활용하여 가장 빠르게 \n- 코다리: Critical Bug Fix 및 안정화 작업을 최우선 순위로 진행합니다. 지난 세션에서 발생한 'ImportError: cannot impor\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 최근 로그에서 언급된 '월 수익 70만원' 단기 목표를 기준으로, 현재 기획 중인 유튜브(롱폼/쇼츠) 및 블로그 콘텐츠를 활용하여 가장 빠르게 매출을 발생시킬 수 있는 최적의 수익화 조합(예: 쿠팡 파트너스 핵심 상품",
+      "completedAt": "2026-09-26T12:19:29.357Z"
+    },
+    {
+      "id": "20260926121750-rrjs",
+      "title": "**Service Locator 패턴 적용:** 하네스 내부에서 `import` 대신 동적 로딩 함수 (`load_module`)를 사용하여 의존성 경로 오류에 대비했는가? (✅ 리팩토링 완료)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-09-26T12:17:50.382Z",
+      "status": "done",
+      "sessionDir": "2026-09-26T12-14",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-26T12-14/_report.md\n- 현빈: 최근 로그에서 언급된 '월 수익 70만원' 단기 목표를 기준으로, 현재 기획 중인 유튜브(롱폼/쇼츠) 및 블로그 콘텐츠를 활용하여 가장 빠르게 \n- 코다리: Critical Bug Fix 및 안정화 작업을 최우선 순위로 진행합니다. 지난 세션에서 발생한 'ImportError: cannot impor\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 최근 로그에서 언급된 '월 수익 70만원' 단기 목표를 기준으로, 현재 기획 중인 유튜브(롱폼/쇼츠) 및 블로그 콘텐츠를 활용하여 가장 빠르게 매출을 발생시킬 수 있는 최적의 수익화 조합(예: 쿠팡 파트너스 핵심 상품",
+      "completedAt": "2026-09-26T12:19:29.360Z"
+    },
+    {
+      "id": "20260926121750-nyzz",
+      "title": "**Mocking 전략 검증:** 외부 API 호출(예: YouTube Upload, Wordpress Post) 시 실제 호출을 막고 Mock 객체로 대체하는 로직이 모든 테스트 케이스에 적용되었는가?",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-09-26T12:17:50.384Z",
+      "status": "done",
+      "sessionDir": "2026-09-26T12-14",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-26T12-14/_report.md\n- 현빈: 최근 로그에서 언급된 '월 수익 70만원' 단기 목표를 기준으로, 현재 기획 중인 유튜브(롱폼/쇼츠) 및 블로그 콘텐츠를 활용하여 가장 빠르게 \n- 코다리: Critical Bug Fix 및 안정화 작업을 최우선 순위로 진행합니다. 지난 세션에서 발생한 'ImportError: cannot impor\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 최근 로그에서 언급된 '월 수익 70만원' 단기 목표를 기준으로, 현재 기획 중인 유튜브(롱폼/쇼츠) 및 블로그 콘텐츠를 활용하여 가장 빠르게 매출을 발생시킬 수 있는 최적의 수익화 조합(예: 쿠팡 파트너스 핵심 상품",
+      "completedAt": "2026-09-26T12:19:29.364Z"
+    },
+    {
+      "id": "20260926121750-11db",
+      "title": "**ImportError 방어:** 모듈 임포트 실패 시(`try-except` 블록), 프로그램 전체가 크래시되는 것이 아니라 해당 컴포넌트만 '건너뛰기'하고 테스트를 계속할 수 있는 메커니즘이 작동하는가? (✅ `load_module` 구현)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-09-26T12:17:50.387Z",
+      "status": "done",
+      "sessionDir": "2026-09-26T12-14",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-26T12-14/_report.md\n- 현빈: 최근 로그에서 언급된 '월 수익 70만원' 단기 목표를 기준으로, 현재 기획 중인 유튜브(롱폼/쇼츠) 및 블로그 콘텐츠를 활용하여 가장 빠르게 \n- 코다리: Critical Bug Fix 및 안정화 작업을 최우선 순위로 진행합니다. 지난 세션에서 발생한 'ImportError: cannot impor\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 최근 로그에서 언급된 '월 수익 70만원' 단기 목표를 기준으로, 현재 기획 중인 유튜브(롱폼/쇼츠) 및 블로그 콘텐츠를 활용하여 가장 빠르게 매출을 발생시킬 수 있는 최적의 수익화 조합(예: 쿠팡 파트너스 핵심 상품",
+      "completedAt": "2026-09-26T12:19:29.367Z"
+    },
+    {
+      "id": "20260926121750-8zce",
+      "title": "**Input Data Validation:** 모든 테스트 입력 데이터(예: 스크립트, 제목, 썸네일 에셋)는 Null/Empty 값에 대한 예외 처리를 포함하는가?",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-09-26T12:17:50.390Z",
+      "status": "done",
+      "sessionDir": "2026-09-26T12-14",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-26T12-14/_report.md\n- 현빈: 최근 로그에서 언급된 '월 수익 70만원' 단기 목표를 기준으로, 현재 기획 중인 유튜브(롱폼/쇼츠) 및 블로그 콘텐츠를 활용하여 가장 빠르게 \n- 코다리: Critical Bug Fix 및 안정화 작업을 최우선 순위로 진행합니다. 지난 세션에서 발생한 'ImportError: cannot impor\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 최근 로그에서 언급된 '월 수익 70만원' 단기 목표를 기준으로, 현재 기획 중인 유튜브(롱폼/쇼츠) 및 블로그 콘텐츠를 활용하여 가장 빠르게 매출을 발생시킬 수 있는 최적의 수익화 조합(예: 쿠팡 파트너스 핵심 상품",
+      "completedAt": "2026-09-26T12:19:29.370Z"
     }
   ]
 }
