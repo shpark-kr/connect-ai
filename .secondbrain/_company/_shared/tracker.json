@@ -299,6 +299,57 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-09-25T14-14/_report.md\n- 영숙: 현재까지 완성된 모든 산출물(롱폼 스크립트, 숏폼 스크립트 초안, Designer가 제작할 Warning 에셋 브리프) 목록을 취합하여 '콘텐츠\n- 코다리: secretary가 제공한 통합 패키지 및 콘텐츠별 최적화된 메타데이터(제목, 해시태그 세트)를 기반으로, Multi-Platform 자동 발행\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 현재까지 완성된 모든 산출물(롱폼 스크립트, 숏폼 스크립트 초안, Designer가 제작할 Warning 에셋 브리프) 목록을 취합하여 '콘텐츠 통합 패키지'를 작성하십시오. 또한, 이 콘텐츠들을 유튜브/인스타그램/블로그에 ",
       "completedAt": "2026-09-25T14:20:48.005Z"
+    },
+    {
+      "id": "20260926040126-fkra",
+      "title": "**데이터 타입:** 모든 입력 필드의 데이터 타입을 `string` 또는 `number`로 제한하고, 이를 백엔드에서 재검증하는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-09-26T04:01:26.174Z",
+      "status": "done",
+      "sessionDir": "2026-09-26T03-59",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-26T03-59/_report.md\n- 코다리: Designer가 제공한 'Gap Analyzer' 와이어프레임 및 CSS/SVG 컴포넌트 스펙(특히 상태 변화 로직)을 기반으로, E2E 통합\n\nCEO 종합 요점: 💻 코다리: 작업 시작합니다.\n\nCEO님의 지시는 명확합니다. 가장 중요한 것은 '기능의 안정성'과 '수익화 경로의 완벽한 작동 여부'입니다. 말씀하신 E2E 통합 테스트 계획서는 단순한 기획서가 아니라, **개발 표준이 되는 기술 사양(Technical Specification)**으로 접근해야 합니다. \"만약 이 부분에서 깨지면 어떻게 할까?\"라는 질",
+      "completedAt": "2026-09-26T04:01:26.187Z"
+    },
+    {
+      "id": "20260926040126-o9ti",
+      "title": "**상태 변화 로직:** PolicyEngine의 상태 전이는 반드시 단방향(State A $\\rightarrow$ State B)으로만 이루어지는지, 그리고 예외적인 순환 루프는 없는지 테스트해야 함.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-09-26T04:01:26.177Z",
+      "status": "done",
+      "sessionDir": "2026-09-26T03-59",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-26T03-59/_report.md\n- 코다리: Designer가 제공한 'Gap Analyzer' 와이어프레임 및 CSS/SVG 컴포넌트 스펙(특히 상태 변화 로직)을 기반으로, E2E 통합\n\nCEO 종합 요점: 💻 코다리: 작업 시작합니다.\n\nCEO님의 지시는 명확합니다. 가장 중요한 것은 '기능의 안정성'과 '수익화 경로의 완벽한 작동 여부'입니다. 말씀하신 E2E 통합 테스트 계획서는 단순한 기획서가 아니라, **개발 표준이 되는 기술 사양(Technical Specification)**으로 접근해야 합니다. \"만약 이 부분에서 깨지면 어떻게 할까?\"라는 질",
+      "completedAt": "2026-09-26T04:01:26.190Z"
+    },
+    {
+      "id": "20260926040126-poqg",
+      "title": "**API 통합 지점:** 리드 마그넷 다운로드 트리거 API와 트래킹 API를 동시에 호출하는 경우의 비동기 처리(Async Handling) 안정성을 확인. (하나가 실패해도 다른 하나는 성공해야 함).",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-09-26T04:01:26.180Z",
+      "status": "done",
+      "sessionDir": "2026-09-26T03-59",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-26T03-59/_report.md\n- 코다리: Designer가 제공한 'Gap Analyzer' 와이어프레임 및 CSS/SVG 컴포넌트 스펙(특히 상태 변화 로직)을 기반으로, E2E 통합\n\nCEO 종합 요점: 💻 코다리: 작업 시작합니다.\n\nCEO님의 지시는 명확합니다. 가장 중요한 것은 '기능의 안정성'과 '수익화 경로의 완벽한 작동 여부'입니다. 말씀하신 E2E 통합 테스트 계획서는 단순한 기획서가 아니라, **개발 표준이 되는 기술 사양(Technical Specification)**으로 접근해야 합니다. \"만약 이 부분에서 깨지면 어떻게 할까?\"라는 질",
+      "completedAt": "2026-09-26T04:01:26.192Z"
     }
   ]
 }
