@@ -1,0 +1,86 @@
+openapi: 3.0.1
+info:
+  title: MiniFunnel Diagnostic API Mock Service
+  description: |
+    MiniFunnel의 생체지표 진단 및 상태 변화를 시뮬레이션하는 가상 API 스펙.
+    실제 네트워크 실패(DNS, Connection)와 데이터 유효성 오류 처리를 검증하는 데 사용됩니다.
+servers:
+  - url: http://mock-api.onhyun.com/api/v1
+paths:
+  /diagnosis/run_scan:
+    post:
+      summary: HOMA-IR 및 기타 지표를 이용한 진단 스캔 요청 (핵심 Funnel Trigger)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id: { type: string, description: 사용자 식별 ID }
+                metrics: 
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      metric_name: { type: string, example: "HOMA-IR" }
+                      value: { type: number, description: 측정된 생체 지표 값 }
+                      unit: { type: string, example: "mg/dL" }
+      responses:
+        '200':
+          description: 스캔 성공 및 진단 결과 반환 (Soft Gold 해결책 제시)
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status: { type: string, example: "SUCCESS" }
+                  diagnosis_score: { type: number, example: 78.5 }
+                  recommendation: { type: string, example: "식습관 개선 및 운동 병행을 추천합니다." }
+        '400':
+          description: 요청 본문 유효성 오류 (예: 필수 지표 누락)
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status: { type: string, example: "ERROR" }
+                  code: { type: string, example: "INVALID_INPUT" }
+                  message: { type: string, example: "HOMA-IR 값이 유효한 범위(2.0~15.0)를 벗어났습니다." }
+        '503':
+          description: 서비스 일시 중단 또는 네트워크 오류 발생 (폴백 로직 트리거 지점)
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status: { type: string, example: "SERVICE_UNAVAILABLE" }
+                  error_code: { type: string, example: "NETWORK_FAIL" }
+                  fallback_action: { type: string, example: "Offline Quiz 제공 및 재시도 안내." }
+
+  /user/profile/{user_id}/status:
+    get:
+      summary: 사용자 상태 확인 (Fallback 체크)
+      parameters:
+        - in: path
+          name: user_id
+          required: true
+          schema: { type: string }
+      responses:
+        '200':
+          description: 사용자 상태 정상 조회
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  is_active: { type: boolean, example: true }
+                  last_check: { type: string, format: date-time, example: "2026-09-28T10:00:00Z" }
+        '404':
+          description: 사용자 ID를 찾을 수 없음 (Fallback 로직 테스트)
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status: { type: string, example: "NOT_FOUND" }
