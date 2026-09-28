@@ -806,6 +806,57 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-09-28T13-48/_report.md\n- 현빈: 현재까지 기획된 모든 콘텐츠(유튜브, 인스타그램)의 시퀀스를 분석하여, 'Mini-App 검진'으로 유도하는 과정에서 쿠팡 파트너스 추천 섹션이\n- Instagram: Business가 지정한 3가지 주요 전환 포인트(Trigger Point)에 맞춰, 다음 주 업로드할 핵심 릴스 콘텐츠 5개에 대한 최종 '수\n- 영숙: Business와 Instagram의 산출물을 종합하여, 다음 주 월요일부터 2주간의 '온현' 미디어 콘텐츠 통합 운영 스케줄(Content E\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 현재까지 기획된 모든 콘텐츠(유튜브, 인스타그램)의 시퀀스를 분석하여, 'Mini-App 검진'으로 유도하는 과정에서 쿠팡 파트너스 추천 섹션이나 애드포스트 광고 배치가 가장 효과적인 3가지 지점(Trigger Poi",
       "completedAt": "2026-09-28T13:56:34.843Z"
+    },
+    {
+      "id": "20260928200629-56le",
+      "title": "Glitch Effect 발생 조건이 단순 임계값(Threshold)이 아닌, 변화율(Delta Rate) 기반인지 확인.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-09-28T20:06:29.949Z",
+      "status": "done",
+      "sessionDir": "2026-09-28T20-03",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-28T20-03/_report.md\n- 코다리: Mini-App Funnel의 핵심 진단 로직(test_diagnosis_engine.py)을 전면 재점검하고, 과거 발생했던 SyntaxErr\n- Designer: 개발자가 안정화한 Mini-App Funnel의 코드 구조를 받아, Deep Crimson Red 경고 UI와 Glitch Effect가 코딩된\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Mini-App Funnel의 핵심 진단 로직(test_diagnosis_engine.py)을 전면 재점검하고, 과거 발생했던 SyntaxError 및 네트워크 흐름 에러를 모두 수정하여 E2E 테스트가 가능한 수준으로 코드를 안정화하십시오.",
+      "completedAt": "2026-09-28T20:08:18.108Z"
+    },
+    {
+      "id": "20260928200629-5sn8",
+      "title": "Level 1~3 경고 UI 컴포넌트가 적절한 HEX 코드로 분리되어 사용되는지 검토.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-09-28T20:06:29.953Z",
+      "status": "done",
+      "sessionDir": "2026-09-28T20-03",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-28T20-03/_report.md\n- 코다리: Mini-App Funnel의 핵심 진단 로직(test_diagnosis_engine.py)을 전면 재점검하고, 과거 발생했던 SyntaxErr\n- Designer: 개발자가 안정화한 Mini-App Funnel의 코드 구조를 받아, Deep Crimson Red 경고 UI와 Glitch Effect가 코딩된\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Mini-App Funnel의 핵심 진단 로직(test_diagnosis_engine.py)을 전면 재점검하고, 과거 발생했던 SyntaxError 및 네트워크 흐름 에러를 모두 수정하여 E2E 테스트가 가능한 수준으로 코드를 안정화하십시오.",
+      "completedAt": "2026-09-28T20:08:18.111Z"
+    },
+    {
+      "id": "20260928200629-x3vk",
+      "title": "CTA 유도 직전의 'Deep Blur' 및 'Glitch/Level 3' 시퀀스가 명시된 시간표(T+0s ~ T+3s)에 맞춰 작동하는지 E2E 테스트 수행.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-09-28T20:06:29.957Z",
+      "status": "done",
+      "sessionDir": "2026-09-28T20-03",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-28T20-03/_report.md\n- 코다리: Mini-App Funnel의 핵심 진단 로직(test_diagnosis_engine.py)을 전면 재점검하고, 과거 발생했던 SyntaxErr\n- Designer: 개발자가 안정화한 Mini-App Funnel의 코드 구조를 받아, Deep Crimson Red 경고 UI와 Glitch Effect가 코딩된\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Mini-App Funnel의 핵심 진단 로직(test_diagnosis_engine.py)을 전면 재점검하고, 과거 발생했던 SyntaxError 및 네트워크 흐름 에러를 모두 수정하여 E2E 테스트가 가능한 수준으로 코드를 안정화하십시오.",
+      "completedAt": "2026-09-28T20:08:18.114Z"
     }
   ]
 }
