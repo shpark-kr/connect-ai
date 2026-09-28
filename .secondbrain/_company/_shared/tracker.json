@@ -568,6 +568,193 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-09-27T13-48/_report.md\n- 코다리: Designer가 완성한 'Mini-App Funnel의 최종 기술 명세서'를 바탕으로, 점수(Score) 기반의 동적 색상 변경 및 애니메이션\n- Designer: Developer가 코딩을 진행하는 과정에서 발생할 수 있는 모든 UI/UX 관련 의문을 사전에 해소하고, Mini-App의 전반적인 톤앤매너(\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 완성한 'Mini-App Funnel의 최종 기술 명세서'를 바탕으로, 점수(Score) 기반의 동적 색상 변경 및 애니메이션 로직을 통합하여 개발 환경에 구현하십시오. 특히, Deep Crimson Red 계열의 위험도 측",
       "completedAt": "2026-09-27T13:52:52.661Z"
+    },
+    {
+      "id": "20260927212144-hotr",
+      "title": "**State Management:** 모든 UI 변경은 `mini_app_funnel_transition_map.json`에 정의된 State Transition을 반드시 따를 것.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-09-27T21:21:44.911Z",
+      "status": "done",
+      "sessionDir": "2026-09-27T21-18",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-27T21-18/_report.md\n- Designer: Mini-App Funnel의 인터랙티브 프로토타입(Deep Crimson Red 및 점수 게이지 시스템)을 개발자 친화적인 수준으로 최종 완료\n\nCEO 종합 요점: 🎨 Designer: 작업 시작합니다.\n\nCEO님의 지시사항은 Mini-App Funnel의 핵심 가치인 '신뢰할 수 있는 상호작용'을 기술적으로 구현하는 가장 중요한 단계입니다. 단순한 목업을 넘어, 개발팀이 즉시 코딩에 투입 가능한 **컴포넌트 기반의 설계 문서**를 제공하는 것에 초점을 맞춰 프로토타입 및 모든 관련 문서를 통합하여 제공하겠습니다.\n",
+      "completedAt": "2026-09-27T21:21:44.925Z"
+    },
+    {
+      "id": "20260927212144-tb0u",
+      "title": "**CSS/SVG:** 게이지와 오버레이는 CSS 변수(`--danger-color: #B71C1C;`) 기반으로 설계하고, 애니메이션은 `cubic-bezier` 함수를 사용하여 자연스러운 감속(Easing)을 구현할 것.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-09-27T21:21:44.914Z",
+      "status": "done",
+      "sessionDir": "2026-09-27T21-18",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-27T21-18/_report.md\n- Designer: Mini-App Funnel의 인터랙티브 프로토타입(Deep Crimson Red 및 점수 게이지 시스템)을 개발자 친화적인 수준으로 최종 완료\n\nCEO 종합 요점: 🎨 Designer: 작업 시작합니다.\n\nCEO님의 지시사항은 Mini-App Funnel의 핵심 가치인 '신뢰할 수 있는 상호작용'을 기술적으로 구현하는 가장 중요한 단계입니다. 단순한 목업을 넘어, 개발팀이 즉시 코딩에 투입 가능한 **컴포넌트 기반의 설계 문서**를 제공하는 것에 초점을 맞춰 프로토타입 및 모든 관련 문서를 통합하여 제공하겠습니다.\n",
+      "completedAt": "2026-09-27T21:21:44.928Z"
+    },
+    {
+      "id": "20260927212144-6gjk",
+      "title": "**Performance:** 위험 경고 시 팝업 효과가 과도하여 앱이 느려지지 않도록 최적화된 SVG/CSS만 사용하며, 로딩 속도를 최우선으로 고려할 것.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-09-27T21:21:44.917Z",
+      "status": "done",
+      "sessionDir": "2026-09-27T21-18",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-27T21-18/_report.md\n- Designer: Mini-App Funnel의 인터랙티브 프로토타입(Deep Crimson Red 및 점수 게이지 시스템)을 개발자 친화적인 수준으로 최종 완료\n\nCEO 종합 요점: 🎨 Designer: 작업 시작합니다.\n\nCEO님의 지시사항은 Mini-App Funnel의 핵심 가치인 '신뢰할 수 있는 상호작용'을 기술적으로 구현하는 가장 중요한 단계입니다. 단순한 목업을 넘어, 개발팀이 즉시 코딩에 투입 가능한 **컴포넌트 기반의 설계 문서**를 제공하는 것에 초점을 맞춰 프로토타입 및 모든 관련 문서를 통합하여 제공하겠습니다.\n",
+      "completedAt": "2026-09-27T21:21:44.931Z"
+    },
+    {
+      "id": "20260928055404-3au2",
+      "title": "Deep Crimson Red = 단순 경고 $\\rightarrow$ 공학적 시스템 오류 (`scanline-glitch`, `system alert box`)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-09-28T05:54:04.229Z",
+      "status": "done",
+      "sessionDir": "2026-09-28T05-48",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-28T05-48/_report.md\n- 코다리: Designer가 제공한 '시스템 리스크 스코어(Deep Crimson Red)' Design Spec과, CEO가 제공한 CSS 유틸리티 파일\n- Designer: Developer가 구현할 Mini-App Funnel 프로토타입의 최종 UI/UX를 검수해 주세요. 특히 Deep Crimson Red 경고 \n- 영숙: Mini-App Funnel 프로토타입 제작을 최우선 마일스톤으로 설정하고, 개발 완료 시점을 기준으로 다음 단계(A/B 테스트 및 실사용 데이\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 제공한 '시스템 리스크 스코어(Deep Crimson Red)' Design Spec과, CEO가 제공한 CSS 유틸리티 파일(`_engineering-crisis-utils.css`)을 통합하여 Mini-App의 HTML/",
+      "completedAt": "2026-09-28T05:56:52.474Z"
+    },
+    {
+      "id": "20260928055404-xokk",
+      "title": "Input Field = 정보 입력 $\\rightarrow$ 데이터 추출/요구(`[Input Field]`, Flicker Focus State)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-09-28T05:54:04.232Z",
+      "status": "done",
+      "sessionDir": "2026-09-28T05-48",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-28T05-48/_report.md\n- 코다리: Designer가 제공한 '시스템 리스크 스코어(Deep Crimson Red)' Design Spec과, CEO가 제공한 CSS 유틸리티 파일\n- Designer: Developer가 구현할 Mini-App Funnel 프로토타입의 최종 UI/UX를 검수해 주세요. 특히 Deep Crimson Red 경고 \n- 영숙: Mini-App Funnel 프로토타입 제작을 최우선 마일스톤으로 설정하고, 개발 완료 시점을 기준으로 다음 단계(A/B 테스트 및 실사용 데이\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 제공한 '시스템 리스크 스코어(Deep Crimson Red)' Design Spec과, CEO가 제공한 CSS 유틸리티 파일(`_engineering-crisis-utils.css`)을 통합하여 Mini-App의 HTML/",
+      "completedAt": "2026-09-28T05:56:52.476Z"
+    },
+    {
+      "id": "20260928055404-rcbs",
+      "title": "CTA Button = 행동 유도 $\\rightarrow$ 유일한 해법 제시 (High Contrast, System Protocol Naming)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-09-28T05:54:04.235Z",
+      "status": "done",
+      "sessionDir": "2026-09-28T05-48",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-28T05-48/_report.md\n- 코다리: Designer가 제공한 '시스템 리스크 스코어(Deep Crimson Red)' Design Spec과, CEO가 제공한 CSS 유틸리티 파일\n- Designer: Developer가 구현할 Mini-App Funnel 프로토타입의 최종 UI/UX를 검수해 주세요. 특히 Deep Crimson Red 경고 \n- 영숙: Mini-App Funnel 프로토타입 제작을 최우선 마일스톤으로 설정하고, 개발 완료 시점을 기준으로 다음 단계(A/B 테스트 및 실사용 데이\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 제공한 '시스템 리스크 스코어(Deep Crimson Red)' Design Spec과, CEO가 제공한 CSS 유틸리티 파일(`_engineering-crisis-utils.css`)을 통합하여 Mini-App의 HTML/",
+      "completedAt": "2026-09-28T05:56:52.479Z"
+    },
+    {
+      "id": "20260928062211-mbo2",
+      "title": "Deep Crimson Red의 사용 위치가 오직 '경고'와 '위협 데이터'에 한정되었는가? (배경 금지 체크)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-09-28T06:22:11.541Z",
+      "status": "done",
+      "sessionDir": "2026-09-28T06-18",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-28T06-18/_report.md\n- Instagram: 이전 주에 기획된 3세트의 릴스 스크립트와 Funnel 목표(Mini-App 진입)를 바탕으로, 이번 주 발행할 최적화된 '인스타그램 콘텐츠 로\n- Designer: Mini-App의 Deep Crimson Red 글리치 경고 시스템과 '공학적 위협감' 톤앤매너를 인스타그램 콘텐츠에 일관되게 적용할 수 있도록\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📷 Instagram _(Head of Instagram)_\n> 📋 **지시**: 이전 주에 기획된 3세트의 릴스 스크립트와 Funnel 목표(Mini-App 진입)를 바탕으로, 이번 주 발행할 최적화된 '인스타그램 콘텐츠 로드맵'을 최종 확정해 주세요. 각 게시물별로 기대하는 전환 지표(Funnel 유",
+      "completedAt": "2026-09-28T06:24:03.083Z"
+    },
+    {
+      "id": "20260928062211-maw9",
+      "title": "글리치 효과나 노이즈 레이어는 콘텐츠 메시지의 긴급성을 증폭시키는 역할만 하는가? (단순 장식이 아닌가?)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-09-28T06:22:11.544Z",
+      "status": "done",
+      "sessionDir": "2026-09-28T06-18",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-28T06-18/_report.md\n- Instagram: 이전 주에 기획된 3세트의 릴스 스크립트와 Funnel 목표(Mini-App 진입)를 바탕으로, 이번 주 발행할 최적화된 '인스타그램 콘텐츠 로\n- Designer: Mini-App의 Deep Crimson Red 글리치 경고 시스템과 '공학적 위협감' 톤앤매너를 인스타그램 콘텐츠에 일관되게 적용할 수 있도록\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📷 Instagram _(Head of Instagram)_\n> 📋 **지시**: 이전 주에 기획된 3세트의 릴스 스크립트와 Funnel 목표(Mini-App 진입)를 바탕으로, 이번 주 발행할 최적화된 '인스타그램 콘텐츠 로드맵'을 최종 확정해 주세요. 각 게시물별로 기대하는 전환 지표(Funnel 유",
+      "completedAt": "2026-09-28T06:24:03.086Z"
+    },
+    {
+      "id": "20260928062211-2j4r",
+      "title": "메인 제목은 3초 안에 Pain Point를 명확히 전달하는가? (질문/통계 제시)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-09-28T06:22:11.547Z",
+      "status": "done",
+      "sessionDir": "2026-09-28T06-18",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-28T06-18/_report.md\n- Instagram: 이전 주에 기획된 3세트의 릴스 스크립트와 Funnel 목표(Mini-App 진입)를 바탕으로, 이번 주 발행할 최적화된 '인스타그램 콘텐츠 로\n- Designer: Mini-App의 Deep Crimson Red 글리치 경고 시스템과 '공학적 위협감' 톤앤매너를 인스타그램 콘텐츠에 일관되게 적용할 수 있도록\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📷 Instagram _(Head of Instagram)_\n> 📋 **지시**: 이전 주에 기획된 3세트의 릴스 스크립트와 Funnel 목표(Mini-App 진입)를 바탕으로, 이번 주 발행할 최적화된 '인스타그램 콘텐츠 로드맵'을 최종 확정해 주세요. 각 게시물별로 기대하는 전환 지표(Funnel 유",
+      "completedAt": "2026-09-28T06:24:03.089Z"
+    },
+    {
+      "id": "20260928062211-zphr",
+      "title": "시각적 위협감과 전문적인 신뢰도 사이의 균형을 유지했는가? (너무 자극적이거나, 너무 평범하지 않은지?)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-09-28T06:22:11.550Z",
+      "status": "done",
+      "sessionDir": "2026-09-28T06-18",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-28T06-18/_report.md\n- Instagram: 이전 주에 기획된 3세트의 릴스 스크립트와 Funnel 목표(Mini-App 진입)를 바탕으로, 이번 주 발행할 최적화된 '인스타그램 콘텐츠 로\n- Designer: Mini-App의 Deep Crimson Red 글리치 경고 시스템과 '공학적 위협감' 톤앤매너를 인스타그램 콘텐츠에 일관되게 적용할 수 있도록\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📷 Instagram _(Head of Instagram)_\n> 📋 **지시**: 이전 주에 기획된 3세트의 릴스 스크립트와 Funnel 목표(Mini-App 진입)를 바탕으로, 이번 주 발행할 최적화된 '인스타그램 콘텐츠 로드맵'을 최종 확정해 주세요. 각 게시물별로 기대하는 전환 지표(Funnel 유",
+      "completedAt": "2026-09-28T06:24:03.092Z"
+    },
+    {
+      "id": "20260928062211-18ye",
+      "title": "Mini-App Funnel로 유도하는 CTA 버튼은 L3 레벨에 맞춰 가장 눈에 띄게(Deep Crimson Red) 배치되었는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-09-28T06:22:11.552Z",
+      "status": "done",
+      "sessionDir": "2026-09-28T06-18",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-28T06-18/_report.md\n- Instagram: 이전 주에 기획된 3세트의 릴스 스크립트와 Funnel 목표(Mini-App 진입)를 바탕으로, 이번 주 발행할 최적화된 '인스타그램 콘텐츠 로\n- Designer: Mini-App의 Deep Crimson Red 글리치 경고 시스템과 '공학적 위협감' 톤앤매너를 인스타그램 콘텐츠에 일관되게 적용할 수 있도록\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📷 Instagram _(Head of Instagram)_\n> 📋 **지시**: 이전 주에 기획된 3세트의 릴스 스크립트와 Funnel 목표(Mini-App 진입)를 바탕으로, 이번 주 발행할 최적화된 '인스타그램 콘텐츠 로드맵'을 최종 확정해 주세요. 각 게시물별로 기대하는 전환 지표(Funnel 유",
+      "completedAt": "2026-09-28T06:24:03.094Z"
     }
   ]
 }
