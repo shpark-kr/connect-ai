@@ -857,6 +857,51 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-09-28T20-03/_report.md\n- 코다리: Mini-App Funnel의 핵심 진단 로직(test_diagnosis_engine.py)을 전면 재점검하고, 과거 발생했던 SyntaxErr\n- Designer: 개발자가 안정화한 Mini-App Funnel의 코드 구조를 받아, Deep Crimson Red 경고 UI와 Glitch Effect가 코딩된\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Mini-App Funnel의 핵심 진단 로직(test_diagnosis_engine.py)을 전면 재점검하고, 과거 발생했던 SyntaxError 및 네트워크 흐름 에러를 모두 수정하여 E2E 테스트가 가능한 수준으로 코드를 안정화하십시오.",
       "completedAt": "2026-09-28T20:08:18.114Z"
+    },
+    {
+      "id": "20260929182108-nu5x",
+      "title": "**데이터 구조 정의:** 모든 질문과 답변에 대한 가중치와 Defect ID 매핑 로직을 백엔드에서 명확히 구축할 것.",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-09-29T18:21:08.257Z",
+      "status": "pending",
+      "sessionDir": "2026-09-29T18-19",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260929182108-ryjv",
+      "title": "**UI 컴포넌트 통합:** A, B, C의 세 가지 UI 스펙(딥 크림슨, 경고문구, 복구 프로토콜)이 끊김 없이 연결되도록 애니메이션 흐름을 설계할 것.",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-09-29T18:21:08.261Z",
+      "status": "pending",
+      "sessionDir": "2026-09-29T18-19",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260929182108-5fiq",
+      "title": "**QA 우선순위:** '시스템 오류'가 발생했을 때 사용자에게 보여야 할 메시지와 로직을 최우선으로 테스트해야 합니다. (Failure Injection Test)",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-09-29T18:21:08.265Z",
+      "status": "pending",
+      "sessionDir": "2026-09-29T18-19",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
     }
   ]
 }

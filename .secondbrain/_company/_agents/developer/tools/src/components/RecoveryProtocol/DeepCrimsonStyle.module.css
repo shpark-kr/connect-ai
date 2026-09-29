@@ -1,0 +1,71 @@
+/* 🩸 Deep Crimson Red Theme Variables & Base Styles */
+:root {
+    --color-primary-dark: #8B0000; /* Dark Red - Primary Alert Color */
+    --color-secondary: #A020F0;  /* Purple/Magenta - Accent/Protocol Highlight */
+    --color-background-dark: #1a0505; /* Near Black/Deep Maroon BG */
+    --color-text-light: #EFEFEF; /* Off White Text */
+    --color-warning-bg: rgba(139, 0, 0, 0.2); /* Transparent Red Background for Warnings */
+    --font-mono: 'Roboto Mono', monospace;
+}
+
+/* --- General Container Styling --- */
+.protocolContainer {
+    background-color: var(--color-background-dark);
+    color: var(--color-text-light);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* --- System Alert/Error Display --- */
+.systemAlert {
+    background-color: var(--color-warning-bg);
+    border-left: 5px solid var(--color-primary-dark);
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: var(--font-mono);
+    animation: pulse-alert 1.5s infinite alternate; /* 애니메이션 추가 */
+}
+
+.errorCode {
+    color: #FF4444; /* Bright Alert Red */
+    font-size: 2em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+@keyframes pulse-alert {
+    from { box-shadow: 0 0 5px rgba(139, 0, 0, 0.4); }
+    to { box-shadow: 0 0 20px var(--color-primary-dark); }
+}
+
+/* --- Button Styling (CTA) --- */
+.actionButton {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.actionButton:hover {
+    background-color: #9415c2; /* Slightly darker hover */
+    transform: translateY(-2px);
+}
+
+/* --- State Specific Styling (Input/Solution) --- */
+.inputField, .protocolStepCard {
+    border: 1px solid var(--color-primary-dark);
+    background-color: #100303; /* Slightly darker than background for contrast */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.protocolStepCard h4 {
+    color: var(--color-secondary);
+    font-family: var(--font-mono);
+}
