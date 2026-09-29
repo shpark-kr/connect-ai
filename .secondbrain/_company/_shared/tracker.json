@@ -867,11 +867,13 @@
         "secretary"
       ],
       "createdAt": "2026-09-29T18:21:08.257Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-09-29T18-19",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-29T18-19/_report.md\n- 영숙: 최근 확보된 모든 핵심 산출물(E-M411 프로토콜 UI 스펙, 전문 카피 세트, 릴스 주간 계획) 목록을 취합하고, 개발팀이 즉시 코딩에 착수\n- 코다리: secretary가 정리한 통합 브리핑 문서를 기반으로, E-M411 시스템 복구 프로토콜 MiniFunnel UI의 인터랙티브 목업(Mocku\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 최근 확보된 모든 핵심 산출물(E-M411 프로토콜 UI 스펙, 전문 카피 세트, 릴스 주간 계획) 목록을 취합하고, 개발팀이 즉시 코딩에 착수할 수 있도록 '프로젝트 통합 브리핑 문서'를 작성하여 developer에게 전달",
+      "completedAt": "2026-09-29T18:23:49.890Z"
     },
     {
       "id": "20260929182108-ryjv",
@@ -882,11 +884,13 @@
         "secretary"
       ],
       "createdAt": "2026-09-29T18:21:08.261Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-09-29T18-19",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-29T18-19/_report.md\n- 영숙: 최근 확보된 모든 핵심 산출물(E-M411 프로토콜 UI 스펙, 전문 카피 세트, 릴스 주간 계획) 목록을 취합하고, 개발팀이 즉시 코딩에 착수\n- 코다리: secretary가 정리한 통합 브리핑 문서를 기반으로, E-M411 시스템 복구 프로토콜 MiniFunnel UI의 인터랙티브 목업(Mocku\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 최근 확보된 모든 핵심 산출물(E-M411 프로토콜 UI 스펙, 전문 카피 세트, 릴스 주간 계획) 목록을 취합하고, 개발팀이 즉시 코딩에 착수할 수 있도록 '프로젝트 통합 브리핑 문서'를 작성하여 developer에게 전달",
+      "completedAt": "2026-09-29T18:23:49.893Z"
     },
     {
       "id": "20260929182108-5fiq",
@@ -897,11 +901,13 @@
         "secretary"
       ],
       "createdAt": "2026-09-29T18:21:08.265Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-09-29T18-19",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-09-29T18-19/_report.md\n- 영숙: 최근 확보된 모든 핵심 산출물(E-M411 프로토콜 UI 스펙, 전문 카피 세트, 릴스 주간 계획) 목록을 취합하고, 개발팀이 즉시 코딩에 착수\n- 코다리: secretary가 정리한 통합 브리핑 문서를 기반으로, E-M411 시스템 복구 프로토콜 MiniFunnel UI의 인터랙티브 목업(Mocku\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 최근 확보된 모든 핵심 산출물(E-M411 프로토콜 UI 스펙, 전문 카피 세트, 릴스 주간 계획) 목록을 취합하고, 개발팀이 즉시 코딩에 착수할 수 있도록 '프로젝트 통합 브리핑 문서'를 작성하여 developer에게 전달",
+      "completedAt": "2026-09-29T18:23:49.896Z"
     }
   ]
 }
