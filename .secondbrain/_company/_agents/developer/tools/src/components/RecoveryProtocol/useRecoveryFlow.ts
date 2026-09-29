@@ -9,6 +9,10 @@ export enum ProtocolState {
 }
 
 export interface DiagnosisResult {
+  errorCode: string; // E-M411 등, Defect ID를 포함해야 함
+  description: string; // 문제 설명 (공학적 용어 사용 필수)
+  // 여기에 Master Defect DB의 모든 필드를 추가하여 데이터 기반으로 확장할 준비가 필요합니다.
+}
   errorCode: string; // 예: E-M411
   description: string; // 문제 설명 (공학적 용어 사용 필수)
   severityLevel: 'Critical' | 'High' | 'Moderate'; // 심각도에 따른 UI 변수
