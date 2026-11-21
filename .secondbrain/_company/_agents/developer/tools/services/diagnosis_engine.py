@@ -110,6 +110,8 @@ class DiagnosisEngineService:
     국민연금 외 소득 공백을 진단하는 핵심 서비스 로직입니다.
     API 통신 및 복잡한 계산 과정을 담당합니다.
     """
+    fetch_policy_data_from_api = staticmethod(fetch_policy_data_from_api)
+
     def __init__(self):
         print("✅ DiagnosisEngineService 초기화 완료. API 재시도/백오프 메커니즘 준비됨.")
 

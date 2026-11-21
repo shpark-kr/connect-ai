@@ -1,8 +1,17 @@
 import unittest
-import os
-# 기존의 MockAPIService와 E2E Funnel Test Suite를 임포트하여 사용한다고 가정합니다.
-from .MockAPIService import MockAPIService 
-from .e2e_funnel_cta_test_suite import test_funnel_flow
+import sys
+from pathlib import Path
+
+CURRENT_DIR = Path(__file__).resolve().parent
+if str(CURRENT_DIR) not in sys.path:
+    sys.path.insert(0, str(CURRENT_DIR))
+
+try:
+    from .MockAPIService import MockAPIService 
+    from .e2e_funnel_cta_test_suite import test_funnel_flow
+except ImportError:
+    from MockAPIService import MockAPIService 
+    from e2e_funnel_cta_test_suite import test_funnel_flow
 
 class TestFunnelResilience(unittest.TestCase):
     """

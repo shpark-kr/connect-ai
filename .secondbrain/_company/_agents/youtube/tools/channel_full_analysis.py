@@ -133,13 +133,21 @@ def main():
     print(f"  영상당 평균 조회: {avg_per_video:,}회")
     print()
 
+    # 업로드 영상이 0개인 경우
+    if video_count == 0:
+        print("⚠️  채널에 업로드된 영상이 없어요. 영상을 1개 이상 업로드한 후 다시 분석해주세요.")
+        sys.exit(0)
+
     # 2. 최근 30일 영상 분석 (uploads playlist 사용 — search보다 quota 절약)
     uploads = c.get("contentDetails", {}).get("relatedPlaylists", {}).get("uploads") if "contentDetails" in c else None
     if not uploads:
         # contentDetails 없으면 search로 폴백
-        cd = youtube.channels().list(part="contentDetails", id=cid).execute()
-        if cd.get("items"):
-            uploads = cd["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+        try:
+            cd = youtube.channels().list(part="contentDetails", id=cid).execute()
+            if cd.get("items"):
+                uploads = cd["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+        except Exception:
+            pass
 
     cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=30)
     recent_video_ids = []
@@ -148,7 +156,10 @@ def main():
         while len(recent_video_ids) < 50:
             args = {"part": "snippet,contentDetails", "playlistId": uploads, "maxResults": 50}
             if next_token: args["pageToken"] = next_token
-            pi = youtube.playlistItems().list(**args).execute()
+            try:
+                pi = youtube.playlistItems().list(**args).execute()
+            except Exception:
+                break
             for item in pi.get("items", []):
                 pub = item["snippet"]["publishedAt"]
                 pub_dt = datetime.datetime.fromisoformat(pub.replace("Z", "+00:00"))

@@ -1,5 +1,13 @@
+import sys
+from pathlib import Path
 import unittest
-from c.Data.Project.connect-ai.services.diagnosis_engine import ( # Mocked import path for testing
+
+# tools 디렉터리를 sys.path에 추가하여 어디서 실행하든 services 패키지를 정상 로드하도록 설정
+CURRENT_DIR = Path(__file__).resolve().parent
+if str(CURRENT_DIR) not in sys.path:
+    sys.path.insert(0, str(CURRENT_DIR))
+
+from services.diagnosis_engine import (
     DiagnosisEngineService, 
     UserProfile, 
     PolicyData, 
