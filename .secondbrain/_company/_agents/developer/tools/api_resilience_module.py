@@ -58,6 +58,7 @@ class CircuitBreaker:
 # --- 2. 지수 백오프 재시도 로직을 적용한 API 클라이언트 ---
 def exponential_backoff_retry(func: Callable[..., Any], max_retries: int = 5, initial_delay: float = 1.0) -> Any:
     """API 호출 함수에지수 백오프 및 재시도 로직을 적용."""
+    delay = initial_delay * (2 ** attempt) # Exponential Backoff 적용
     for attempt in range(max_retries):
         try:
             # 첫 시도 (attempt=0)는 바로 실행

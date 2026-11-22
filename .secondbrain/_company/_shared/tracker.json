@@ -271,6 +271,57 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-11-22T05-42/_report.md\n- Designer: 개발자가 즉시 코딩에 착수할 수 있도록, 'Defect ID 위협 보고서' V3.0 Production Kit 문서를 최종적으로 완성해주세요. \n- 코다리: Designer가 완성할 V3.0 문서를 기반으로, 'Defect ID 보고서'의 핵심 구조물 (HTML/CSS Skeleton) 및 기본적인 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 개발자가 즉시 코딩에 착수할 수 있도록, 'Defect ID 위협 보고서' V3.0 Production Kit 문서를 최종적으로 완성해주세요. 특히 CSS 변수 정의, 인터랙티브 경고 바(Critical Alert UI)의 컴포넌트",
       "completedAt": "2026-11-22T05:48:00.585Z"
+    },
+    {
+      "id": "20261122170443-tksv",
+      "title": "**모듈 존재 여부 확인:** 모든 그래프 컴포넌트는 `circuit_breaker` 패턴을 준용하여, API 호출 실패 시 대체(Mock) 로직으로 부드럽게 전환되는가? (기술적 안정성)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-22T17:04:43.473Z",
+      "status": "done",
+      "sessionDir": "2026-11-22T17-02",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-22T17-02/_report.md\n- 코다리: 최근 시뮬레이터 실패 로그(KeyError: 'youtube')와 Traceback의 문제점(line 149, line 108)을 분석하여 e2\n- Designer: 시뮬레이터 실패 시 언급된 누락 자산 목록(2026-09-25_Writer_blog_html.html, Warning_Module_Asset_G\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 최근 시뮬레이터 실패 로그(KeyError: 'youtube')와 Traceback의 문제점(line 149, line 108)을 분석하여 e2e_deployment_simulator.py 스크립트를 수정하십시오. 특히 최종 보고서 생성 로직",
+      "completedAt": "2026-11-22T17:06:10.298Z"
+    },
+    {
+      "id": "20261122170443-cj6r",
+      "title": "**톤앤매너 일관성:** 모든 경고 메시지 폰트 크기(`24px~36px`)와 배치는 동일한 `--color-urgency`를 사용했는가? (시각적 통일성)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-22T17:04:43.477Z",
+      "status": "done",
+      "sessionDir": "2026-11-22T17-02",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-22T17-02/_report.md\n- 코다리: 최근 시뮬레이터 실패 로그(KeyError: 'youtube')와 Traceback의 문제점(line 149, line 108)을 분석하여 e2\n- Designer: 시뮬레이터 실패 시 언급된 누락 자산 목록(2026-09-25_Writer_blog_html.html, Warning_Module_Asset_G\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 최근 시뮬레이터 실패 로그(KeyError: 'youtube')와 Traceback의 문제점(line 149, line 108)을 분석하여 e2e_deployment_simulator.py 스크립트를 수정하십시오. 특히 최종 보고서 생성 로직",
+      "completedAt": "2026-11-22T17:06:10.301Z"
+    },
+    {
+      "id": "20261122170443-g6oi",
+      "title": "**데이터 시나리오 커버리지:** '최악의 시나리오(Worst Case)', '평균 시나리오(Average Case)', '낙관 시나리오(Best Case)' 세 가지 데이터 플로우에 대한 템플릿이 모두 준비되었는가? (활용성)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-22T17:04:43.479Z",
+      "status": "done",
+      "sessionDir": "2026-11-22T17-02",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-22T17-02/_report.md\n- 코다리: 최근 시뮬레이터 실패 로그(KeyError: 'youtube')와 Traceback의 문제점(line 149, line 108)을 분석하여 e2\n- Designer: 시뮬레이터 실패 시 언급된 누락 자산 목록(2026-09-25_Writer_blog_html.html, Warning_Module_Asset_G\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 최근 시뮬레이터 실패 로그(KeyError: 'youtube')와 Traceback의 문제점(line 149, line 108)을 분석하여 e2e_deployment_simulator.py 스크립트를 수정하십시오. 특히 최종 보고서 생성 로직",
+      "completedAt": "2026-11-22T17:06:10.303Z"
     }
   ]
 }
