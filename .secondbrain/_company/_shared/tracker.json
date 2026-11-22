@@ -135,6 +135,142 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-11-21T09-42/_report.md\n- 코다리: 연구원과 디자이너가 제공한 최신 자가진단 플로우(3가지 답변 집중)와 UI/UX 브리프를 통합하여, 'Defect ID 진단 보고서 페이지'의 \n- 현빈: 개발팀이 구축할 MiniFunnel 프로토타입의 수익 흐름을 최종 점검해야 합니다. 간소화된 플로우 상에서 쿠팡 파트너스, 애드포스트, 제휴 마\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 연구원과 디자이너가 제공한 최신 자가진단 플로우(3가지 답변 집중)와 UI/UX 브리프를 통합하여, 'Defect ID 진단 보고서 페이지'의 핵심 컴포넌트 프로토타입을 구축하십시오. 특히, 사용자의 입력 값에 따라 시스템 오류 코드가 동적으",
       "completedAt": "2026-11-21T09:46:36.840Z"
+    },
+    {
+      "id": "20261121204642-8vl5",
+      "title": "**Hook 스크립트 최적화:** 모든 릴스 V10 Hook의 마지막 3초는 반드시 \"지금 당장 진단이 필요하다\"라는 위기감을 유발하며, MiniFunnel 링크로 직접 연결되어야 합니다. (CTA 명확성)",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-11-21T20:46:42.484Z",
+      "status": "done",
+      "sessionDir": "2026-11-21T20-42",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-21T20-42/_report.md\n- 현빈: MiniFunnel(시스템 오류 진단)을 통해 유입된 사용자에게 제시할 최적의 리드 마그넷 3가지와, 해당 마그넷에서 구매 전환까지 이어지는 '\n- 코다리: MiniFunnel MVP의 백엔드 배포 준비를 완료하고, TrackingService (클릭 추적 로직)가 MiniFunnel 페이지에 완벽하\n- 영숙: 비즈니스팀과 개발팀의 산출물을 바탕으로, 'MiniFunnel 런칭을 위한 최종 체크리스트'를 작성하고, 다음 주 콘텐츠 제작 계획(Reels \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MiniFunnel(시스템 오류 진단)을 통해 유입된 사용자에게 제시할 최적의 리드 마그넷 3가지와, 해당 마그넷에서 구매 전환까지 이어지는 '번들 세트' 구조화 로직 및 최종 가격 책정안을 확정해 주세요. 이 플로우",
+      "completedAt": "2026-11-21T20:48:46.276Z"
+    },
+    {
+      "id": "20261121204642-qrr4",
+      "title": "**Defect ID 스토리텔링 완성:** 단순 정보 제공을 넘어, Defect ID가 *나에게 어떤 실제적 피해를 입히는지*에 대한 공포와 경각심이 최고조로 느껴지도록 스크립트를 수정해야 합니다. (감정적 연결)",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-11-21T20:46:42.487Z",
+      "status": "done",
+      "sessionDir": "2026-11-21T20-42",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-21T20-42/_report.md\n- 현빈: MiniFunnel(시스템 오류 진단)을 통해 유입된 사용자에게 제시할 최적의 리드 마그넷 3가지와, 해당 마그넷에서 구매 전환까지 이어지는 '\n- 코다리: MiniFunnel MVP의 백엔드 배포 준비를 완료하고, TrackingService (클릭 추적 로직)가 MiniFunnel 페이지에 완벽하\n- 영숙: 비즈니스팀과 개발팀의 산출물을 바탕으로, 'MiniFunnel 런칭을 위한 최종 체크리스트'를 작성하고, 다음 주 콘텐츠 제작 계획(Reels \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MiniFunnel(시스템 오류 진단)을 통해 유입된 사용자에게 제시할 최적의 리드 마그넷 3가지와, 해당 마그넷에서 구매 전환까지 이어지는 '번들 세트' 구조화 로직 및 최종 가격 책정안을 확정해 주세요. 이 플로우",
+      "completedAt": "2026-11-21T20:48:46.279Z"
+    },
+    {
+      "id": "20261121204642-n4c3",
+      "title": "**LM 1 자가진단 키트 콘텐츠 검토:** LM 1(무료 진단 키트)의 질문과 결과 보고서 PDF 내용이 '전문성'을 가장 잘 드러낼 수 있도록 최종적인 의학/영양 학술 자료로 보강되어야 합니다.",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-11-21T20:46:42.490Z",
+      "status": "done",
+      "sessionDir": "2026-11-21T20-42",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-21T20-42/_report.md\n- 현빈: MiniFunnel(시스템 오류 진단)을 통해 유입된 사용자에게 제시할 최적의 리드 마그넷 3가지와, 해당 마그넷에서 구매 전환까지 이어지는 '\n- 코다리: MiniFunnel MVP의 백엔드 배포 준비를 완료하고, TrackingService (클릭 추적 로직)가 MiniFunnel 페이지에 완벽하\n- 영숙: 비즈니스팀과 개발팀의 산출물을 바탕으로, 'MiniFunnel 런칭을 위한 최종 체크리스트'를 작성하고, 다음 주 콘텐츠 제작 계획(Reels \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MiniFunnel(시스템 오류 진단)을 통해 유입된 사용자에게 제시할 최적의 리드 마그넷 3가지와, 해당 마그넷에서 구매 전환까지 이어지는 '번들 세트' 구조화 로직 및 최종 가격 책정안을 확정해 주세요. 이 플로우",
+      "completedAt": "2026-11-21T20:48:46.282Z"
+    },
+    {
+      "id": "20261121204642-79o5",
+      "title": "**MiniFunnel 트래킹 로직 최종 검증:** 코다리님이 구현하신 `trackingService`가 모든 Funnel 진입 경로(YouTube, Instagram 등)에서 오류 없이 데이터를 수집하는지 A/B 테스트 환경에서 실시간으로 50건 이상 테스트해야 합니다. (데이터 무결성)",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-11-21T20:46:42.493Z",
+      "status": "done",
+      "sessionDir": "2026-11-21T20-42",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-21T20-42/_report.md\n- 현빈: MiniFunnel(시스템 오류 진단)을 통해 유입된 사용자에게 제시할 최적의 리드 마그넷 3가지와, 해당 마그넷에서 구매 전환까지 이어지는 '\n- 코다리: MiniFunnel MVP의 백엔드 배포 준비를 완료하고, TrackingService (클릭 추적 로직)가 MiniFunnel 페이지에 완벽하\n- 영숙: 비즈니스팀과 개발팀의 산출물을 바탕으로, 'MiniFunnel 런칭을 위한 최종 체크리스트'를 작성하고, 다음 주 콘텐츠 제작 계획(Reels \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MiniFunnel(시스템 오류 진단)을 통해 유입된 사용자에게 제시할 최적의 리드 마그넷 3가지와, 해당 마그넷에서 구매 전환까지 이어지는 '번들 세트' 구조화 로직 및 최종 가격 책정안을 확정해 주세요. 이 플로우",
+      "completedAt": "2026-11-21T20:48:46.284Z"
+    },
+    {
+      "id": "20261121204642-m48y",
+      "title": "**Critical Red UX 완성도 점검:** Critical Red 상태 전환 시의 애니메이션 플래싱 효과, 노이즈 패턴, UI 요소들이 모든 기기(모바일 최적화 필수)에서 끊김 없이 매끄럽게 작동하는지 최종 QA가 필요합니다. (기술 안정성)",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-11-21T20:46:42.496Z",
+      "status": "done",
+      "sessionDir": "2026-11-21T20-42",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-21T20-42/_report.md\n- 현빈: MiniFunnel(시스템 오류 진단)을 통해 유입된 사용자에게 제시할 최적의 리드 마그넷 3가지와, 해당 마그넷에서 구매 전환까지 이어지는 '\n- 코다리: MiniFunnel MVP의 백엔드 배포 준비를 완료하고, TrackingService (클릭 추적 로직)가 MiniFunnel 페이지에 완벽하\n- 영숙: 비즈니스팀과 개발팀의 산출물을 바탕으로, 'MiniFunnel 런칭을 위한 최종 체크리스트'를 작성하고, 다음 주 콘텐츠 제작 계획(Reels \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MiniFunnel(시스템 오류 진단)을 통해 유입된 사용자에게 제시할 최적의 리드 마그넷 3가지와, 해당 마그넷에서 구매 전환까지 이어지는 '번들 세트' 구조화 로직 및 최종 가격 책정안을 확정해 주세요. 이 플로우",
+      "completedAt": "2026-11-21T20:48:46.286Z"
+    },
+    {
+      "id": "20261122054429-4swk",
+      "title": "**Design System:** 모든 색상, 간격은 `--color-*` 변수를 사용했는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-22T05:44:29.020Z",
+      "status": "done",
+      "sessionDir": "2026-11-22T05-42",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-22T05-42/_report.md\n- Designer: 개발자가 즉시 코딩에 착수할 수 있도록, 'Defect ID 위협 보고서' V3.0 Production Kit 문서를 최종적으로 완성해주세요. \n- 코다리: Designer가 완성할 V3.0 문서를 기반으로, 'Defect ID 보고서'의 핵심 구조물 (HTML/CSS Skeleton) 및 기본적인 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 개발자가 즉시 코딩에 착수할 수 있도록, 'Defect ID 위협 보고서' V3.0 Production Kit 문서를 최종적으로 완성해주세요. 특히 CSS 변수 정의, 인터랙티브 경고 바(Critical Alert UI)의 컴포넌트",
+      "completedAt": "2026-11-22T05:48:00.579Z"
+    },
+    {
+      "id": "20261122054429-9jlm",
+      "title": "**UX Flow:** 위기감 $\\rightarrow$ 데이터 충격 $\\rightarrow$ 솔루션 제시 $\\rightarrow$ 리드 확보의 흐름이 자연스러운가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-22T05:44:29.023Z",
+      "status": "done",
+      "sessionDir": "2026-11-22T05-42",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-22T05-42/_report.md\n- Designer: 개발자가 즉시 코딩에 착수할 수 있도록, 'Defect ID 위협 보고서' V3.0 Production Kit 문서를 최종적으로 완성해주세요. \n- 코다리: Designer가 완성할 V3.0 문서를 기반으로, 'Defect ID 보고서'의 핵심 구조물 (HTML/CSS Skeleton) 및 기본적인 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 개발자가 즉시 코딩에 착수할 수 있도록, 'Defect ID 위협 보고서' V3.0 Production Kit 문서를 최종적으로 완성해주세요. 특히 CSS 변수 정의, 인터랙티브 경고 바(Critical Alert UI)의 컴포넌트",
+      "completedAt": "2026-11-22T05:48:00.582Z"
+    },
+    {
+      "id": "20261122054429-muu4",
+      "title": "**Tracking:** 모든 CTA 클릭 및 스크롤 이벤트에 Hidden KPI 필드가 통합되었는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-22T05:44:29.025Z",
+      "status": "done",
+      "sessionDir": "2026-11-22T05-42",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-22T05-42/_report.md\n- Designer: 개발자가 즉시 코딩에 착수할 수 있도록, 'Defect ID 위협 보고서' V3.0 Production Kit 문서를 최종적으로 완성해주세요. \n- 코다리: Designer가 완성할 V3.0 문서를 기반으로, 'Defect ID 보고서'의 핵심 구조물 (HTML/CSS Skeleton) 및 기본적인 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 개발자가 즉시 코딩에 착수할 수 있도록, 'Defect ID 위협 보고서' V3.0 Production Kit 문서를 최종적으로 완성해주세요. 특히 CSS 변수 정의, 인터랙티브 경고 바(Critical Alert UI)의 컴포넌트",
+      "completedAt": "2026-11-22T05:48:00.585Z"
     }
   ]
 }
