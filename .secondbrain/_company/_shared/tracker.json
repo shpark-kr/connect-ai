@@ -322,6 +322,74 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-11-22T17-02/_report.md\n- 코다리: 최근 시뮬레이터 실패 로그(KeyError: 'youtube')와 Traceback의 문제점(line 149, line 108)을 분석하여 e2\n- Designer: 시뮬레이터 실패 시 언급된 누락 자산 목록(2026-09-25_Writer_blog_html.html, Warning_Module_Asset_G\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 최근 시뮬레이터 실패 로그(KeyError: 'youtube')와 Traceback의 문제점(line 149, line 108)을 분석하여 e2e_deployment_simulator.py 스크립트를 수정하십시오. 특히 최종 보고서 생성 로직",
       "completedAt": "2026-11-22T17:06:10.303Z"
+    },
+    {
+      "id": "20261123212339-txbs",
+      "title": "$\\square$ 데이터는 단순 수치가 아닌, **'손실 예측 값'**이라는 개념으로 프레임워크를 잡았는지 확인.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-23T21:23:39.287Z",
+      "status": "done",
+      "sessionDir": "2026-11-23T21-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-23T21-21/_report.md\n- Designer: 코다리 개발자가 구현할 '손실 예측 곡선(Loss Prediction Curve)' 시각화 컴포넌트의 최종 UI/UX 스펙을 완성해 주세요. 특\n- 코다리: Designer가 확정한 '손실 예측 곡선' 스펙과 Business 팀에서 정의한 API 엔드포인트(Loss Prediction Curve)를 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리 개발자가 구현할 '손실 예측 곡선(Loss Prediction Curve)' 시각화 컴포넌트의 최종 UI/UX 스펙을 완성해 주세요. 특히, 사용자가 위험 임계점('CRITICAL')에 도달했을 때 빨간색 경고 애니메이션과 ",
+      "completedAt": "2026-11-23T21:26:59.114Z"
+    },
+    {
+      "id": "20261123212339-34th",
+      "title": "$\\square$ Red Zone 진입 시 플래시 애니메이션(3Hz)과 사운드 효과가 필수적으로 작동하는지 테스트.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-23T21:23:39.290Z",
+      "status": "done",
+      "sessionDir": "2026-11-23T21-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-23T21-21/_report.md\n- Designer: 코다리 개발자가 구현할 '손실 예측 곡선(Loss Prediction Curve)' 시각화 컴포넌트의 최종 UI/UX 스펙을 완성해 주세요. 특\n- 코다리: Designer가 확정한 '손실 예측 곡선' 스펙과 Business 팀에서 정의한 API 엔드포인트(Loss Prediction Curve)를 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리 개발자가 구현할 '손실 예측 곡선(Loss Prediction Curve)' 시각화 컴포넌트의 최종 UI/UX 스펙을 완성해 주세요. 특히, 사용자가 위험 임계점('CRITICAL')에 도달했을 때 빨간색 경고 애니메이션과 ",
+      "completedAt": "2026-11-23T21:26:59.119Z"
+    },
+    {
+      "id": "20261123212339-676m",
+      "title": "$\\square$ 마우스 오버에 따른 '구체적인 일상생활 실패 시나리오' 팝업 로직 구현.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-23T21:23:39.292Z",
+      "status": "done",
+      "sessionDir": "2026-11-23T21-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-23T21-21/_report.md\n- Designer: 코다리 개발자가 구현할 '손실 예측 곡선(Loss Prediction Curve)' 시각화 컴포넌트의 최종 UI/UX 스펙을 완성해 주세요. 특\n- 코다리: Designer가 확정한 '손실 예측 곡선' 스펙과 Business 팀에서 정의한 API 엔드포인트(Loss Prediction Curve)를 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리 개발자가 구현할 '손실 예측 곡선(Loss Prediction Curve)' 시각화 컴포넌트의 최종 UI/UX 스펙을 완성해 주세요. 특히, 사용자가 위험 임계점('CRITICAL')에 도달했을 때 빨간색 경고 애니메이션과 ",
+      "completedAt": "2026-11-23T21:26:59.121Z"
+    },
+    {
+      "id": "20261123212339-7f0q",
+      "title": "$\\square$ 컴포넌트 전반에 걸쳐 Deep Navy와 Alarm Red의 대비를 통해 **긴급함**을 유지했는지 검토.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-23T21:23:39.295Z",
+      "status": "done",
+      "sessionDir": "2026-11-23T21-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-23T21-21/_report.md\n- Designer: 코다리 개발자가 구현할 '손실 예측 곡선(Loss Prediction Curve)' 시각화 컴포넌트의 최종 UI/UX 스펙을 완성해 주세요. 특\n- 코다리: Designer가 확정한 '손실 예측 곡선' 스펙과 Business 팀에서 정의한 API 엔드포인트(Loss Prediction Curve)를 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리 개발자가 구현할 '손실 예측 곡선(Loss Prediction Curve)' 시각화 컴포넌트의 최종 UI/UX 스펙을 완성해 주세요. 특히, 사용자가 위험 임계점('CRITICAL')에 도달했을 때 빨간색 경고 애니메이션과 ",
+      "completedAt": "2026-11-23T21:26:59.123Z"
     }
   ]
 }
