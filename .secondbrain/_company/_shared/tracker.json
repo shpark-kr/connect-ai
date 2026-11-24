@@ -390,6 +390,176 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-11-23T21-21/_report.md\n- Designer: 코다리 개발자가 구현할 '손실 예측 곡선(Loss Prediction Curve)' 시각화 컴포넌트의 최종 UI/UX 스펙을 완성해 주세요. 특\n- 코다리: Designer가 확정한 '손실 예측 곡선' 스펙과 Business 팀에서 정의한 API 엔드포인트(Loss Prediction Curve)를 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리 개발자가 구현할 '손실 예측 곡선(Loss Prediction Curve)' 시각화 컴포넌트의 최종 UI/UX 스펙을 완성해 주세요. 특히, 사용자가 위험 임계점('CRITICAL')에 도달했을 때 빨간색 경고 애니메이션과 ",
       "completedAt": "2026-11-23T21:26:59.123Z"
+    },
+    {
+      "id": "20261124102340-4h4r",
+      "title": "**State Machine:** Mild $\\rightarrow$ Moderate $\\rightarrow$ Critical의 상태 전환 로직 구현 완료.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-24T10:23:40.948Z",
+      "status": "done",
+      "sessionDir": "2026-11-24T10-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-24T10-21/_report.md\n- Designer: Writer가 확정한 '미조치 손실 공포' 카피를 바탕으로, 최종 확정된 '긴급 경고 패널(Urgency Alert Panel)'의 모션 및 상\n- 코다리: Designer가 제공한 '긴급 경고 패널'의 최종 스펙(색상 대비, 모션 타이밍 등)을 기반으로, React 환경에서 동작하는 재사용 가능한 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 확정한 '미조치 손실 공포' 카피를 바탕으로, 최종 확정된 '긴급 경고 패널(Urgency Alert Panel)'의 모션 및 상호작용 스펙을 점검하고, 이 지표가 변화하는 애니메이션 시퀀스별 (예: Mild -> M",
+      "completedAt": "2026-11-24T10:26:27.268Z"
+    },
+    {
+      "id": "20261124102340-7l4j",
+      "title": "**Motion Timing:** 각 단계별 Transition Duration(500ms, 700ms, 300ms) 및 Ease-in/out 스펙 준수.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-24T10:23:40.950Z",
+      "status": "done",
+      "sessionDir": "2026-11-24T10-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-24T10-21/_report.md\n- Designer: Writer가 확정한 '미조치 손실 공포' 카피를 바탕으로, 최종 확정된 '긴급 경고 패널(Urgency Alert Panel)'의 모션 및 상\n- 코다리: Designer가 제공한 '긴급 경고 패널'의 최종 스펙(색상 대비, 모션 타이밍 등)을 기반으로, React 환경에서 동작하는 재사용 가능한 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 확정한 '미조치 손실 공포' 카피를 바탕으로, 최종 확정된 '긴급 경고 패널(Urgency Alert Panel)'의 모션 및 상호작용 스펙을 점검하고, 이 지표가 변화하는 애니메이션 시퀀스별 (예: Mild -> M",
+      "completedAt": "2026-11-24T10:26:27.270Z"
+    },
+    {
+      "id": "20261124102340-cdtm",
+      "title": "**Visual Anchor:** Alarm Red가 사용되는 모든 지점에는 경고의 근거가 되는 데이터 값(`LPC Score: X`)이 함께 표시되어야 함. (막연한 공포X, 과학적 경고O)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-24T10:23:40.953Z",
+      "status": "done",
+      "sessionDir": "2026-11-24T10-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-24T10-21/_report.md\n- Designer: Writer가 확정한 '미조치 손실 공포' 카피를 바탕으로, 최종 확정된 '긴급 경고 패널(Urgency Alert Panel)'의 모션 및 상\n- 코다리: Designer가 제공한 '긴급 경고 패널'의 최종 스펙(색상 대비, 모션 타이밍 등)을 기반으로, React 환경에서 동작하는 재사용 가능한 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 확정한 '미조치 손실 공포' 카피를 바탕으로, 최종 확정된 '긴급 경고 패널(Urgency Alert Panel)'의 모션 및 상호작용 스펙을 점검하고, 이 지표가 변화하는 애니메이션 시퀀스별 (예: Mild -> M",
+      "completedAt": "2026-11-24T10:26:27.272Z"
+    },
+    {
+      "id": "20261124102340-04mo",
+      "title": "**Responsiveness:** 모바일 환경에서 패널의 가독성과 애니메이션 효과가 깨지지 않도록 최우선 테스트 필요.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-24T10:23:40.955Z",
+      "status": "done",
+      "sessionDir": "2026-11-24T10-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-24T10-21/_report.md\n- Designer: Writer가 확정한 '미조치 손실 공포' 카피를 바탕으로, 최종 확정된 '긴급 경고 패널(Urgency Alert Panel)'의 모션 및 상\n- 코다리: Designer가 제공한 '긴급 경고 패널'의 최종 스펙(색상 대비, 모션 타이밍 등)을 기반으로, React 환경에서 동작하는 재사용 가능한 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 확정한 '미조치 손실 공포' 카피를 바탕으로, 최종 확정된 '긴급 경고 패널(Urgency Alert Panel)'의 모션 및 상호작용 스펙을 점검하고, 이 지표가 변화하는 애니메이션 시퀀스별 (예: Mild -> M",
+      "completedAt": "2026-11-24T10:26:27.274Z"
+    },
+    {
+      "id": "20261124140911-brpa",
+      "title": "**CSS/Tailwind:** `:focus-visible` 상태와 함께, 경고 단계에 맞는 전역 클래스(`warning-bg`, `critical-alert-glow`)를 정의할 것.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-24T14:09:11.647Z",
+      "status": "done",
+      "sessionDir": "2026-11-24T14-06",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-24T14-06/_report.md\n- 코다리: 지난 세션에서 확정된 'Critical Alert' 컴포넌트와 Gap Score 변화 로직(특히 -50 이하 깜빡임)을 기반으로, Funnel \n- Designer: Developer가 구축할 E2E 테스트 스위트의 성공적인 실행을 위해, Funnel 내 임베디드 차트(Gap Score 변화 그래프)와 모든 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 지난 세션에서 확정된 'Critical Alert' 컴포넌트와 Gap Score 변화 로직(특히 -50 이하 깜빡임)을 기반으로, Funnel 전체 흐름에 대한 E2E(End-to-End) 테스트 케이스 스위트를 즉시 작성하고 코딩해야 합니다",
+      "completedAt": "2026-11-24T14:10:38.490Z"
+    },
+    {
+      "id": "20261124140911-6dn4",
+      "title": "**JS Logic:** Gap Score 변화 로직이 위 명시된 3단계(Normal -> Warning -> Critical)의 임계값을 정확히 감지하는지 검증 테스트 케이스를 작성할 것.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-24T14:09:11.650Z",
+      "status": "done",
+      "sessionDir": "2026-11-24T14-06",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-24T14-06/_report.md\n- 코다리: 지난 세션에서 확정된 'Critical Alert' 컴포넌트와 Gap Score 변화 로직(특히 -50 이하 깜빡임)을 기반으로, Funnel \n- Designer: Developer가 구축할 E2E 테스트 스위트의 성공적인 실행을 위해, Funnel 내 임베디드 차트(Gap Score 변화 그래프)와 모든 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 지난 세션에서 확정된 'Critical Alert' 컴포넌트와 Gap Score 변화 로직(특히 -50 이하 깜빡임)을 기반으로, Funnel 전체 흐름에 대한 E2E(End-to-End) 테스트 케이스 스위트를 즉시 작성하고 코딩해야 합니다",
+      "completedAt": "2026-11-24T14:10:38.492Z"
+    },
+    {
+      "id": "20261124140911-7ufr",
+      "title": "**Accessibility:** 깜빡임 효과가 있는 Critical Alert 시나리오에 대비하여, 스크린 리더 사용자에게는 충분한 대체 텍스트와 명확한 아웃라인 포커스(`outline: 3px solid red;`)를 제공해야 합니다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-11-24T14:09:11.653Z",
+      "status": "done",
+      "sessionDir": "2026-11-24T14-06",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-24T14-06/_report.md\n- 코다리: 지난 세션에서 확정된 'Critical Alert' 컴포넌트와 Gap Score 변화 로직(특히 -50 이하 깜빡임)을 기반으로, Funnel \n- Designer: Developer가 구축할 E2E 테스트 스위트의 성공적인 실행을 위해, Funnel 내 임베디드 차트(Gap Score 변화 그래프)와 모든 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 지난 세션에서 확정된 'Critical Alert' 컴포넌트와 Gap Score 변화 로직(특히 -50 이하 깜빡임)을 기반으로, Funnel 전체 흐름에 대한 E2E(End-to-End) 테스트 케이스 스위트를 즉시 작성하고 코딩해야 합니다",
+      "completedAt": "2026-11-24T14:10:38.495Z"
+    },
+    {
+      "id": "20261124182449-fetv",
+      "title": "A/B 테스트 대상 구간 명확화 (Step 2, Step 3의 CTA 문구 및 가격 비교 옵션).",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-11-24T18:24:49.765Z",
+      "status": "done",
+      "sessionDir": "2026-11-24T18-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-24T18-21/_report.md\n- 코다리: Critical Error Fix: 'funnel_e2e_qa_script.py' 파일에서 발생한 'ImportError'를 해결하고, Funn\n- 현빈: Funnel Conversion 최적화: Funnel의 기술적 검증이 완료되는 것을 전제로, 현재 설정된 $9,900짜리 Tripwire 상품(\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Critical Error Fix: 'funnel_e2e_qa_script.py' 파일에서 발생한 'ImportError'를 해결하고, Funnel의 전체 End-to-End QA 스크립트가 정상적으로 실행되도록 수정하세요. 특히 상대 경로 ",
+      "completedAt": "2026-11-24T18:26:18.119Z"
+    },
+    {
+      "id": "20261124182449-4flc",
+      "title": "Funnel 전체에 걸쳐 Exit Intent Pop-up 시스템 통합 계획 수립.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-11-24T18:24:49.768Z",
+      "status": "done",
+      "sessionDir": "2026-11-24T18-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-24T18-21/_report.md\n- 코다리: Critical Error Fix: 'funnel_e2e_qa_script.py' 파일에서 발생한 'ImportError'를 해결하고, Funn\n- 현빈: Funnel Conversion 최적화: Funnel의 기술적 검증이 완료되는 것을 전제로, 현재 설정된 $9,900짜리 Tripwire 상품(\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Critical Error Fix: 'funnel_e2e_qa_script.py' 파일에서 발생한 'ImportError'를 해결하고, Funnel의 전체 End-to-End QA 스크립트가 정상적으로 실행되도록 수정하세요. 특히 상대 경로 ",
+      "completedAt": "2026-11-24T18:26:18.122Z"
+    },
+    {
+      "id": "20261124182449-uvm6",
+      "title": "결제 모듈 API Spec 업데이트 필요 (Designer와 협업하여 분할 납부 로직 추가).",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-11-24T18:24:49.771Z",
+      "status": "done",
+      "sessionDir": "2026-11-24T18-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-11-24T18-21/_report.md\n- 코다리: Critical Error Fix: 'funnel_e2e_qa_script.py' 파일에서 발생한 'ImportError'를 해결하고, Funn\n- 현빈: Funnel Conversion 최적화: Funnel의 기술적 검증이 완료되는 것을 전제로, 현재 설정된 $9,900짜리 Tripwire 상품(\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Critical Error Fix: 'funnel_e2e_qa_script.py' 파일에서 발생한 'ImportError'를 해결하고, Funnel의 전체 End-to-End QA 스크립트가 정상적으로 실행되도록 수정하세요. 특히 상대 경로 ",
+      "completedAt": "2026-11-24T18:26:18.125Z"
     }
   ]
 }

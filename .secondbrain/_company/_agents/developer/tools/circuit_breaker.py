@@ -8,6 +8,7 @@ class CircuitState(Enum):
     HALF_OPEN = 3 # 잠시 후 테스트 가능 상태 (제한적 호출 허용)
 
 class CircuitBreaker:
+    def __init__(self, failure_threshold=3, reset_timeout=60):
     def __init__(self, failure_threshold=5, recovery_timeout=60):
         self.failure_threshold = failure_threshold
         self.recovery_timeout = recovery_timeout
